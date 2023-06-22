@@ -357,13 +357,15 @@ footer a{
   }
 
   .para{
-    padding-top: 100px;
+    padding-top: 10px;
+    margin-left: 20px;
     padding-bottom: 50px;
     width: fit-content;
     color: rgb(0, 0, 0);
     text-decoration:solid;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: larger;
+    text-transform: uppercase;
   }
 
   
@@ -536,7 +538,7 @@ color: #f0f0f0;
  
   padding: 30px;
   text-transform: uppercase;
-  width: 500px;
+  width: 0px;
   box-shadow: #3dc9d6;
  
 }
@@ -576,37 +578,41 @@ color: #f0f0f0;
 /*code for inde*/
 
 .abc{
-  padding-top: 250px;
+  padding-top: 200px;
   /*padding-bottom: 250px;*/
  
 }
 
-fieldset{
+.log form{
   width: 300px;
   border: 5px double rgb(239, 34, 34);
   display: flex;
   flex-wrap: wrap;
   box-shadow: 0 5px 10px 12px #000;
+  padding-bottom: 0px;
+  margin-bottom: 40px;
 }
 
 .log{
-  width: 500px;
-  padding: 40px;
+  width: 300px;
+  border: 5px double rgb(239,34, 34);
+  padding: 20px;
    text-transform: uppercase;
    font-weight: bolder;
    font-size: large;
 }
 .log input{
-  width: 300px;
+  width: 200px;
   height: 40px;
   margin-bottom: 20px;
+  margin-right: 20px;
 }
 .log input:hover{
   color: #f0f0f0;
   background-color: #000000;
 }
 
-.log-button button{
+.log button{
   width: 150px;
   height: 40PX;
   margin-top: 20px;
@@ -616,7 +622,7 @@ fieldset{
   font-size: medium;
 
 }
-.log-button button:hover{
+.log button:hover{
   background-color: #000000;
   color: #f0f0f0;
 }
