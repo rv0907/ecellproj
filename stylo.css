@@ -6,12 +6,38 @@
 }
 body{
     overflow-x: inherit;
-    background-color: cornsilk;
-    background-image: url(background5.jpeg);
+    background-color: rgb(72, 178, 192);
+  /* background-image: url(background5.jpeg);*/
     background-repeat: no-repeat;
     background-size: cover;
 }
+/*re check
+body {
+  
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
+/* 
+@media screen and (max-width: 768px) {
+  body {
+    
+    background-position: center;
+    background-size: contain;
+  }
+}
+
+/* 
+@media screen and (max-width: 480px) {
+  body {
+   
+    background-size: auto;
+  }
+}
+
+*/ 
+/*headercss */
 
 header{
     background-color:#000;
@@ -42,7 +68,7 @@ header{
     background-color: #50e455;
     color: #ffffff;
     border: none;
-    border-radius: 10%;
+    border-radius: 0%;
     cursor: pointer;
     font-weight: bolder;
     text-transform: uppercase;
@@ -175,8 +201,10 @@ nav a:hover{
         transform: scale(1,1);
     }
 }
+
+/*about section*/
 .abt{
-    background-color: rgb(224, 240, 240);
+    background-color: rgb(218, 250, 250);
     border-radius: 5%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
@@ -186,7 +214,7 @@ nav a:hover{
     overflow:auto;
 }
 
-
+/*footer*/
 footer{
     
     /*background: rgb(2, 2, 2);
@@ -196,8 +224,8 @@ footer{
     justify-content: center;
     margin-top: 3em;
     overflow-x:auto;*/
-  
-    background: rgb(2, 2, 2);
+    width: 100%;
+    background: rgb(0, 0, 0);
     padding: 3em 1em;
     color: cornsilk;
     display: flex;
@@ -206,7 +234,8 @@ footer{
     align-items: center;
     flex-direction: row;
     flex-wrap: nowrap;
-   
+    width: 100%;
+    height: auto;
 }
 footer a{
     color: inherit;
@@ -244,12 +273,33 @@ footer a{
       }
 
 }
-/* Existing CSS styles */
+
 /*css contact us*/
+.contact-section{
+  padding-top: 200px;
+}
+.contact-section p{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: larger;
+}
+.contact-form p{
+  width: fit-content;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
 .container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    border: #000;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+   
+  }
+  .contact-form{
+    box-shadow: 0 8px 12px #000000;
   }
   .contact-form input,
 .contact-form textarea {
@@ -271,10 +321,12 @@ footer a{
   transition:blue 0.3s ease;
 }
   .contact-form input:hover{
-    background-color: #56cab5;
+    background-color: #000000;
+    color: #f0f0f0;
   }
   .contact-form textarea:hover{
-    background-color:  #56cab5;
+    background-color:  #000000;
+    color: #f0f0f0;
   }
   
   .contact-form button {
@@ -286,10 +338,11 @@ footer a{
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    border-radius: 0;
   }
   
   .contact-form button:hover {
-    background-color: #459aa0;
+    background-color: #000000;
   }
   
   @media screen and (max-width: 600px) {
@@ -304,9 +357,9 @@ footer a{
   }
 
   .para{
+    padding-top: 100px;
+    padding-bottom: 50px;
     width: fit-content;
-    border: #000 5px double;
-   
     color: rgb(0, 0, 0);
     text-decoration:solid;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -315,13 +368,16 @@ footer a{
 
   
  
-   .container1{
+   /*.container1{
     width: 500px;
     position: relative;
     margin-top: 0%;
     margin-left: 40%;
     margin-bottom: 10%;
-    border:10px double #0e1515;
+   /* border:10px double #0e1515;*/
+   /*S display: flex;
+    flex-wrap: wrap;
+    box-shadow: 10px 10px 12px 10px rgb(7, 24, 31);
    }
 
    .box{
@@ -335,7 +391,7 @@ footer a{
     margin: 23px 0px;
     font-size: 20px;
     outline: none;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
    }
    .box input:hover{
     background-color: #459aa0;
@@ -496,7 +552,7 @@ color: #f0f0f0;
   color: #459aa0;
   padding: 20px;
   width: 300px;
- box-shadow: 0 10px 12px rgba(37, 114, 165, 0.727);}
+ box-shadow: 5px 10px 12px 4px rgba(255, 255, 255, 0.727);}
 .signuplabel{
   width: fit-content;
   padding-top: 10px;
@@ -511,4 +567,56 @@ color: #f0f0f0;
 .button button{
   text-transform: uppercase;
   font-weight: bolder;
+  background-color: #50e455;
+}
+.button button:hover{
+  background-color: #459aa0;
+  color: #f0f0f0;
+}
+/*code for inde*/
+
+.abc{
+  padding-top: 250px;
+  /*padding-bottom: 250px;*/
+ 
+}
+
+fieldset{
+  width: 300px;
+  border: 5px double rgb(239, 34, 34);
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0 5px 10px 12px #000;
+}
+
+.log{
+  width: 500px;
+  padding: 40px;
+   text-transform: uppercase;
+   font-weight: bolder;
+   font-size: large;
+}
+.log input{
+  width: 300px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+.log input:hover{
+  color: #f0f0f0;
+  background-color: #000000;
+}
+
+.log-button button{
+  width: 150px;
+  height: 40PX;
+  margin-top: 20px;
+  background-color: #50e455;
+  color: #f0f0f0;
+  font-weight: bold;
+  font-size: medium;
+
+}
+.log-button button:hover{
+  background-color: #000000;
+  color: #f0f0f0;
 }
