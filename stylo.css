@@ -6,10 +6,11 @@
 }
 body{
     overflow-x: inherit;
-    background-color: rgb(72, 178, 192);
+    background-color:#C6CBEF;
   /* background-image: url(background5.jpeg);*/
     background-repeat: no-repeat;
     background-size: cover;
+    font-style: 'Quattrocento', serif;;
 }
 /*re check
 body {
@@ -40,8 +41,8 @@ body {
 /*headercss */
 
 header{
-    background-color:#000;
-    color: rgb(72, 178, 192);
+    background-color:#494CA2;
+    color: #E3E7F1;
     text-align: center;
     position: fixed;
     z-index: 999;
@@ -60,12 +61,12 @@ header{
   }
   .search-bar input:hover{
     color: #fff;
-    background-color: rgb(72, 178, 192);
+    background-color:#8186D5;
   }
   
   .search-bar button {
     padding: 5px 10px;
-    background-color: #50e455;
+    background-color:#9598c8;
     color: #ffffff;
     border: none;
     border-radius: 0%;
@@ -321,11 +322,11 @@ footer a{
   transition:blue 0.3s ease;
 }
   .contact-form input:hover{
-    background-color: #000000;
+    background-color: #a3a4f1;
     color: #f0f0f0;
   }
   .contact-form textarea:hover{
-    background-color:  #000000;
+    background-color:  #a3a4f1;
     color: #f0f0f0;
   }
   
@@ -333,7 +334,7 @@ footer a{
     display: block;
     width: 100%;
     padding: 10px;
-    background-color: #4CAF50;
+    background-color: #c4e1dc;
     color: #fff;
     border: none;
     cursor: pointer;
@@ -342,7 +343,7 @@ footer a{
   }
   
   .contact-form button:hover {
-    background-color: #000000;
+    background-color: #a3a4f1;
   }
   
   @media screen and (max-width: 600px) {
@@ -544,17 +545,21 @@ color: #f0f0f0;
 }
 .signupform h1{
   text-align: center;
-  background-color: rgb(0, 0, 0);
-  color: #1db6c1;
-  border: 5px double rgb(76, 152, 159);
+  background-color:#8186D5;
+  color: #c8e4e6;
+  border: 5px double rgb(30, 110, 181);
   font-size:xx-large;
 }
+fieldset{
+  border: none;
+}
+
 .forme{
-  background-color: black;
-  color: #459aa0;
+  background-color:#8186D5;
+  color: #f0f3f4;
   padding: 20px;
   width: 300px;
- box-shadow: 5px 10px 12px 4px rgba(255, 255, 255, 0.727);}
+ box-shadow: 5px 10px 12px 4px rgba(50, 154, 155, 0.727);}
 .signuplabel{
   width: fit-content;
   padding-top: 10px;
@@ -569,7 +574,7 @@ color: #f0f0f0;
 .button button{
   text-transform: uppercase;
   font-weight: bolder;
-  background-color: #50e455;
+  background-color: #5570a2fd;
 }
 .button button:hover{
   background-color: #459aa0;
@@ -585,7 +590,7 @@ color: #f0f0f0;
 
 .log form{
   width: 300px;
-  border: 5px double rgb(239, 34, 34);
+  border: 5px double rgb(65, 32, 118);
   display: flex;
   flex-wrap: wrap;
   box-shadow: 0 5px 10px 12px #000;
@@ -595,6 +600,7 @@ color: #f0f0f0;
 
 .log{
   width: 300px;
+  
   padding: 20px;
    text-transform: uppercase;
    font-weight: bolder;
@@ -608,20 +614,22 @@ color: #f0f0f0;
 }
 .log input:hover{
   color: #f0f0f0;
-  background-color: #000000;
+  background-color: #494CA2;
 }
+
 
 .log button{
   width: 150px;
   height: 40PX;
   margin-top: 20px;
-  background-color: #50e455;
+  background-color: #5570a2fd;
   color: #f0f0f0;
   font-weight: bold;
   font-size: medium;
+  cursor: pointer;
 
 }
 .log button:hover{
-  background-color: #000000;
+  background-color: #4147c0;
   color: #f0f0f0;
 }
